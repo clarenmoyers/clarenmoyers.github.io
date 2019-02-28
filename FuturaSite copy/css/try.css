@@ -1,0 +1,326 @@
+body {
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/*START MINH'S EDITS*/
+
+.nav #grid {
+  font-size: 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 35px;
+}
+
+.nav #anatomy {
+  font-size: 1.5rem;
+  position: fixed;
+  top: 0;
+  right: 35px;
+}
+
+.nav #game {
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  left: 35px;
+}
+
+.nav #about {
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  right: 35px;
+}
+
+.nav a:hover {
+  color: red;
+}
+
+#link {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 20px;
+  margin: 0 0 0 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.info {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  height: 20%;
+}
+
+.grid-container {
+  margin: -300px 0 0 -250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(10, 50px);
+  grid-gap: 0;
+  grid-row: span 10;
+  justif-content: center;
+  align-content: center;
+}
+
+.grid-item {
+  font-size: 5em;
+  text-align: center;
+  display: block;
+  font-weight: 300;
+}
+
+.grid-item a:hover {
+  transform: rotate(20deg);
+  font-weight: 800;
+}
+
+.game .container {
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: move;
+}
+
+.divClass {
+  margin: 50px;
+  width: 350px;
+  display: inline-block;
+  outline: 2px solid white;
+}
+
+.divClass p {
+  margin: 0;
+  outline: white;
+  float: left;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 150px;
+  cursor: move;
+  transition: .1s;
+}
+
+a:hover #draggable {
+  opacity: .5;
+}
+
+a:hover #draggable2 {
+  opacity: .5;
+}
+
+a:hover #draggable3 {
+  opacity: .5;
+}
+
+a:hover #draggable4 {
+  opacity: .5;
+}
+
+a:hover #draggable5 {
+  opacity: .5;
+}
+
+a:hover #draggable6 {
+  opacity: .5;
+}
+
+a:hover #draggable7 {
+  opacity: .5;
+}
+
+a:hover #draggable8 {
+  opacity: .5;
+}
+
+a:hover #draggable9 {
+  opacity: .5;
+}
+
+a:hover #draggable10 {
+  opacity: .5;
+}
+
+a:hover #draggable11 {
+  opacity: .5;
+}
+
+a:hover #draggable12 {
+  opacity: .5;
+}
+
+a:hover #draggable13 {
+  opacity: .5;
+}
+
+a:hover #draggable14 {
+  opacity: .5;
+}
+
+a:hover #draggable15 {
+  opacity: .5;
+}
+
+/*END MINH'S EDITS*/
+
+/*START CLAREN'S EDITS*/
+
+.geometriesBox{
+  padding-top:20%;
+  padding-left: 25%;
+  display: inline-block;
+}
+
+      a#f {
+        margin-top: 40px;
+        width:120px;
+        height:250px;
+        background: url("../images/f.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+      }
+
+      a#f:hover {
+        margin-top: 40px;
+        width:120px;
+        height:250px;
+        background: url("../images/f.line.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+
+      }
+
+      a#u {
+        margin-top: 40px;
+        width:150px;
+        height:250px;
+        background: url("../images/u.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+      }
+
+      a#u:hover {
+        margin-top: 40px;
+        width:150px;
+        height:250px;
+        background: url("../images/u.line.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+       
+      }
+
+      a#t {
+        margin-top: 40px;
+        width:100px;
+        height:250px;
+        background: url("../images/t.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+      }
+
+      a#t:hover {
+        margin-top: 40px;
+        width:100px;
+        height:250px;
+        background: url("../images/t.line.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+
+      }
+
+      a#u2 {
+        margin-top: 40px;
+        width:150px;
+        height:250px;
+        background: url("../images/u.2.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+      }
+
+      a#u2:hover {
+        margin-top: 40px;
+        width:150px;
+        height:250px;
+        background: url("../images/u.2.line.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+
+      }
+      
+      a#r {
+        margin-top: 40px;
+        width:125px;
+        height:250px;
+        background: url("../images/r.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+      }
+
+      a#r:hover {
+        margin-top: 40px;
+        width:125px;
+        height:250px;
+        background: url("../images/r.line.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+
+      }
+      a#a {
+        margin-top: 40px;
+        width:150px;
+        height:250px;
+        background: url("../images/a.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+      }
+
+      a#a:hover {
+        margin-top: 40px;
+        width:150px;
+        height:250px;
+        background: url("../images/a.line.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+
+/*END CLAREN'S EDITS*/
+

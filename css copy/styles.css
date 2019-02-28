@@ -1,0 +1,936 @@
+html {
+	height:100%;
+}
+
+body {
+height:100%;
+font-size: 18px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+}
+
+ /* all navigation */
+.navigation ul{
+	padding: 30px 0 0 10px;
+	margin: 0;
+	list-style: none;
+}
+
+.navigation ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+.navigation ul li a:hover {
+	color: #474747;
+}
+
+.fixedNavigation {
+	position: fixed;
+	width: 15%;
+	min-width: 216px;
+	background-color: black;
+	height: 100%;
+	z-index: 10;
+}
+
+.homepageBox .fixedNavigation {
+	background-color: white;
+	height: 20px;
+	top: 0;
+}
+
+.navigation2 ul{
+	padding: 15px 0 0 20px;
+	margin: 0;
+	list-style: none;
+}
+
+.navigation2 ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.navigation2 ul li a:hover {
+	color: #383838;
+}
+
+#mySidenav{
+	background-color: #FFBB90;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 50%; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+ .closebtn {
+    position: absolute;
+    top: 10%;
+    left: 89%;
+    font-size: 62px;
+    color: black;
+ }
+
+ .closebtn:hover {
+ 	color: #383838;
+ }
+
+ .openbtn{
+    position: absolute;
+    top: 10%;
+    font-size: 62px;
+    margin-left: 30px;
+    color: white; 	
+ }
+
+  .openbtn:hover {
+ 	color: #383838;
+ }
+
+ /* all navigation */
+
+
+ /* boxes on the project subpages */
+
+.fullImage img{
+	display: block;
+	margin-left: 15%;
+	width: 85%;
+	box-sizing: border-box;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+
+.boxText{
+	margin-left: 15%;
+	width: 85%;
+}
+
+.boxText p{
+	margin: auto;
+	color: black;
+	box-sizing: border-box;
+	padding: 5% 30% 5% 30%;
+	margin-top:0;
+}
+
+.centeredText{
+	margin-left: 15%;
+	width: 85%;
+}
+
+.centeredText p{
+	margin: auto;
+	text-align: center;
+	color: black;
+	box-sizing: border-box;
+	padding: 20% 30% 2% 30%;
+	margin-top:0;
+}
+
+.centeredText a{
+	padding: 0 30% 0 45%;
+	margin: none;
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	text-align: center;
+}
+
+.centeredText a:hover{
+	color: #CFEECE;
+}
+
+.boxImage{
+	margin-left: 15%;
+	padding: 2% 0 0 17%;
+	width: 85%;
+}
+
+.levittownBox1{
+	padding-top: 2%;
+	margin-left: 18%;
+	display: inline-block;
+}
+
+.levittownBox2{
+	padding-left: 32%;
+	position: relative;
+	padding-top: 2%;
+}
+
+.levittownBox3{
+	padding: 2% 0 0 19%;
+}
+
+#video2 {
+    margin-left: 15%;
+    width: 85%;
+    right: 0;
+    width: 85%;
+    height:100%;
+    background-color: black;
+}
+
+.typeMetaphorBox1{
+	margin-left: 19%;
+	padding: 0 0 0 17%;
+	width: 85%;
+}
+
+.theChairBox1{
+	margin-left: 22%;
+	display: inline-block;	
+}
+
+.theChairBox1 p{
+	float: right;
+	padding-right: 9.5%;
+	position: relative;
+	font-size: 10px;
+}
+
+.theChairBox3{
+	margin-left: 8%;
+	padding: 2% 0 0 17%;
+}
+
+.theChairBox2{
+	margin-left: 19%;
+	padding: 2% 0 0 0;
+}
+
+.theChairBox2 img{
+	padding: 2% 0 0 0;
+}
+
+.fashionLoopBox2{
+	margin-left: 37%;
+}
+
+.fashionLoopBox1{
+	display: block;
+	margin-left: 28%;
+	padding-top: 2%;
+}
+
+.infStudiesBox1{
+	float: left;
+	display: inline-block;
+}
+ /* boxes on the project subpages */
+
+
+ /* closable side navigation */
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.homepageBox{
+	width: 50%;
+	z-index: 5;
+	padding-top: 25%;
+	position: relative;
+}
+
+.homepageBox h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 140px;
+	line-height: 120px;
+	margin: 0;
+	padding-left: 8%;
+}
+
+.homepageBox h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	margin-top: 0;
+	font-size: 36px;
+	padding-left: 9%;
+}
+
+.aboutMeBox{
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.aboutmeTextOne{
+	padding: none;
+	line-height: 6px;
+	text-align: center;
+}
+
+.aboutmeTextOne a{
+	text-decoration: none;
+	color: black;
+	padding-top: 0;
+	font-weight: 500;
+}
+
+.aboutmeTextOne a:hover{
+	color: #CFEECE;
+}
+
+.aboutmeTextTwo a{
+	text-decoration: none;
+	color: black;
+	padding-top: 0;
+	font-weight: 500;
+	margin-left: 42%;
+	text-align: center;
+}
+
+.aboutmeTextTwo a:hover{
+	color: #CFEECE;
+}
+
+.aboutmeImage{
+    position: relative;
+    display: inline-block;
+    margin-top: 5%;
+    left:30%;
+}
+
+.aboutmeImage img:last-child{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.aboutmeImage:hover img:last-child{
+	    display: inline-block;
+}
+ /* closable side navigation */
+
+
+
+
+@media only screen and (max-width: 800px){
+	
+
+/* main project page */
+.projectsbuttons{
+	margin-left: 15%;
+	width: 85%;
+}
+
+.main_hl {
+  width: 50px;
+  margin-left: 30%;
+  top: 14%;
+}
+
+.main_vl {
+  height: 1000px;
+  left: 36%;
+  top: 14%;
+  margin-bottom: 5%;
+}
+
+.main_vl2{
+  border-right: 6px solid red;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  margin-bottom: 5%;
+
+}
+
+.categoryOne_hl{
+  width: 50px;
+  margin-left: 36%;
+  top: 45%;
+}
+
+.categoryTwo_hl{
+  width: 50px;
+  margin-left: 36%;
+  top: 75%;
+}
+
+.categoryThree_hl{
+  width: 50px;
+  margin-left: 36%;
+  top: 105%;
+}
+
+
+.categoryOneBranch_vl{
+  height: 207px;
+  left: 65%;
+  top: 27%;
+}
+
+.categoryOneBranch_hl{
+  width: 50px;
+  margin-left: 65%;
+  top: 27%;
+}
+
+.categoryOneBranch_hl2{
+  width: 50px;
+  margin-left: 65%;
+  top: 40%;
+}
+
+.categoryOneBranch_hl3{
+  width: 50px;
+  margin-left: 65%;
+  top: 55.5%;
+}
+
+.categoryTwoBranch_vl{
+  height: 112px;
+  left: 70%;
+  top: 68%;
+}
+
+.categoryTwoBranch_hl{
+  width: 50px;
+  margin-left: 70%;
+  top: 68%;
+}
+
+.categoryTwoBranch_hl2{
+  width: 50px;
+  margin-left: 70%;
+  top: 83%;
+}
+
+.categoryThreeBranch_vl{
+  height: 207px;
+  left: 67%;
+  top: 91%;
+}
+
+.categoryThreeBranch_hl{
+  width: 50px;
+  margin-left: 67%;
+  top: 91%;
+}
+
+.categoryThreeBranch_hl2{
+  width: 50px;
+  margin-left: 67%;
+  top: 105%;
+}
+
+.categoryThreeBranch_hl3{
+  width: 50px;
+  margin-left: 67%;
+  top: 119.5%;
+}
+ /* main project page */
+
+
+
+.categoryOne{
+	left: 44%;
+	top: 42%;	
+}
+
+.categoryTwo{
+	left: 44%;
+	top: 72%;	
+}
+
+.categoryThree{
+	left: 44%;
+	top: 102%;	
+}
+
+a#btn_index {
+	height: 30px;
+	padding: 10px 8px;
+	font-size: 14px;
+
+	left: 79%;
+	top: 66%;
+}
+
+a#btn_woodsculpture{
+	height: 30px;
+	padding: 10px 8px;
+	font-size: 14px;
+
+	left: 75%;
+	top: 25%;
+}
+
+a#btn_utensilredesign{
+	height: 30px;
+	padding: 10px 8px;
+	font-size: 14px;
+
+	left: 75%;
+	top: 38%;
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+body {
+font-size: 12px;
+  
+}
+
+ /* all navigation */
+.navigation ul{
+	padding: 25px 0 0 10px;
+	margin: 0;
+	display: block;
+	text-align: center;
+}
+
+.navigation ul li {
+	display: inline-block;
+	padding-left:0;
+	padding: 0 2.5%;
+}
+
+.navigation ul li a {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.fixedNavigation {
+	position: relative;
+	width: 100%;
+	height: 10%;
+	z-index: 10;
+}
+
+.homepageBox .fixedNavigation {
+	height: 20px;
+	top: 0;
+}
+
+.sidenav {
+    height: 50%; /* 100% Full-height */
+    width: 100%; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+.navigation2 ul{
+	padding: 25px 0 0 10px;
+	margin: 0;
+	display: block;
+	text-align: center;
+}
+
+.navigation2 ul li {
+	display: inline-block;
+	padding-left:0;
+	padding: 0 2.5%;
+}
+
+.navigation2 ul li a {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+ .closebtn {
+ 	display: none;
+ }
+
+ .openbtn{
+ 	display: none;
+ }
+
+
+
+/* boxes on the project subpages */
+
+.boxOne{
+	margin-left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.boxOne img{
+	margin-left: 0;
+	width: 100%;
+	padding: none;	
+}
+
+.boxText p{
+	box-sizing: border-box;
+	padding: 10% 20% 10% 20%;
+	margin: auto;
+	text-decoration: none;
+}
+
+.boxText{
+	margin-left: 0;
+	width: 100%;
+}
+
+.boxTwo img{
+	margin-left: 0;
+	width: 100%;
+}
+
+.boxThree{
+	margin-left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.boxThree img{
+	margin-left: 0;
+	width: 100%;
+	padding: none;	
+}
+
+.boxThree p{
+	box-sizing: border-box;
+	padding: 10% 20% 10% 20%;
+	margin: auto;
+	text-decoration: none;
+	background-color: #E5E5E5;
+	width: 100%;
+	z-index: -5;
+
+}
+
+.boxFour {
+	margin-left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.boxFour img{
+	box-sizing: border-box;
+	padding-top: 0;
+	margin-left: 0;
+	width: 100%;
+	padding: none;
+}
+
+.boxFive{
+	margin-left: 0;
+	width: 100%;
+	height: 100%;	
+}
+
+.boxFive img{
+	box-sizing: border-box;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-left: 0;
+	width: 100%;
+}
+
+.boxSix{
+	margin-left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.boxSix img{
+	margin-left: 0;
+	width: 100%;
+	padding: none;	
+
+}
+
+.boxSix p{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10% 20% 10% 20%;
+	margin: auto;
+	text-decoration: none;
+	background-color: #E5E5E5;
+	z-index: -5;
+}
+ /* boxes on the project subpages */
+
+
+/* main project page */
+.projectsbuttons{
+	margin-left: 15%;
+	width: 85%;
+}
+
+.main_hl {
+  width: 240px;
+  margin-left: 5%;
+  top: 14%;
+}
+
+.main_vl {
+  height: 1000px;
+  left: 5%;
+  top: 14%;
+  margin-bottom: 5%;
+}
+
+.main_vl2{
+  border-right: 6px solid red;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  margin-bottom: 5%;
+
+}
+
+.categoryOne_hl{
+  width: 20px;
+  margin-left: 5%;
+  top: 45%;
+}
+
+.categoryTwo_hl{
+  width: 20px;
+  margin-left: 5%;
+  top: 75%;
+}
+
+.categoryThree_hl{
+  width: 20px;
+  margin-left: 5%;
+  top: 105%;
+}
+
+
+.categoryOneBranch_vl{
+  height: 120px;
+  left: 24%;
+  top: 37%;
+}
+
+.categoryOneBranch_hl{
+  width: 95px;
+  margin-left: 24%;
+  top: 37%;
+}
+
+.categoryOneBranch_hl2{
+  width: 95px;
+  margin-left: 24%;
+  top: 45%;
+}
+
+.categoryOneBranch_hl3{
+  width: 95px;
+  margin-left: 24%;
+  top: 53.5%;
+}
+
+.categoryTwoBranch_vl{
+  height: 80px;
+  left: 29%;
+  top: 70%;
+}
+
+.categoryTwoBranch_hl{
+  width: 95px;
+  margin-left: 29%;
+  top: 70%;
+}
+
+.categoryTwoBranch_hl2{
+  width: 95px;
+  margin-left: 29%;
+  top: 81%;
+}
+
+.categoryThreeBranch_vl{
+  height: 120px;
+  left: 28%;
+  top: 97%;
+}
+
+.categoryThreeBranch_hl{
+  width: 95px;
+  margin-left: 28%;
+  top: 97%;
+}
+
+.categoryThreeBranch_hl2{
+  width: 95px;
+  margin-left: 28%;
+  top: 105%;
+}
+
+.categoryThreeBranch_hl3{
+  width: 95px;
+  margin-left: 28%;
+  top: 113%;
+}
+ /* main project page */
+
+
+/* main project page buttons */
+a#btn_index {
+	height: 30px;
+	padding: 10px 8px;
+	font-size: 14px;
+
+	left: 48%;
+	top: 68%;
+}
+
+a#btn_woodsculpture{
+	height: 30px;
+	padding: 10px 8px;
+	font-size: 14px;
+
+	left: 43%;
+	top: 35%;
+}
+
+a#btn_utensilredesign{
+	height: 30px;
+	padding: 10px 8px;
+	font-size: 14px;
+
+	left: 43%;
+	top: 43%;
+}
+
+
+.categoryOne{
+	font-size: 18px;
+
+	left: 10%;
+	top: 44%;	
+}
+
+.categoryTwo{
+	font-size: 18px;
+
+	left: 10%;
+	top: 74%;	
+}
+
+.categoryThree{
+	font-size: 18px;
+
+	left: 10%;
+	top: 104%;	
+}
+ /* main project page buttons */
+
+
+ /* closable side navigation */
+
+ #video {
+    position: fixed;
+    right: 0;
+    top: 0;
+   	width: 120%; 
+    min-height: 30%;
+}
+
+.aboutmeBackground{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+  	background-repeat: no-repeat;
+  	background-size: auto;
+}
+
+.homepageBox{
+	width: 50%;
+	z-index: 5;
+	padding-top: 18%;
+}
+
+.homepageBox h1{
+	font-weight: 800;
+	font-size: 106px;
+	line-height: 80px;
+	padding-left: 25%;
+}
+
+.homepageBox h2{
+	margin-top: 0;
+	font-size: 18px;
+	padding-left: 27%;
+}
+
+.aboutMeBox{
+	margin-top: 10%;
+}
+ /* closable side navigation */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
